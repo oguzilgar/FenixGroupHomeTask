@@ -1,6 +1,7 @@
 import SELECTOR from "../../support/constants";
 
 class HomePage {
+  
   //is
   static isHomePageLoadedSuccessfully(baseUrlEnv, expectedListOfDashboard) {
     cy.url().should(`eq`, `${baseUrlEnv}`);

@@ -1,4 +1,5 @@
 const CYPRESS_ATTRIBUTES = {
+  
     DASHBOARD: {
       MAIN_MENU: '#menu-main-menu',
       SELECTED_SUB_MODUL: '.current_page_item',

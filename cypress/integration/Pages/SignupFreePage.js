@@ -1,6 +1,7 @@
 import SELECTOR from "../../support/constants";
 
 class SignupFreePage {
+  
   //is
   static isSignUpFreePageDisplayed() {
     cy.url().should(`include`, `/free-sign-up/#celltelligence-form`);
