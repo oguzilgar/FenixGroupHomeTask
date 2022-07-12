@@ -1,0 +1,23 @@
+{
+  "env": {
+    "environment": "prod",
+    "prod": {
+      "baseUrl": "https://celltelligence.com/"
+    }
+  },
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
+  "integrationFolder": "cypress/",
+  "projectId": "5bee4f",
+  "requestTimeout": 10000,
+  "defaultTimeout": 10000,
+  "pageLoadTimeout": 40000,
+  "testFiles": "**/*.spec.js",
+  "video": true,
+  "videoCompression": 32,
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "includeShadowDom": true
+}
